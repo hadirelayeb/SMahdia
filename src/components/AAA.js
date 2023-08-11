@@ -4,7 +4,7 @@ import AuthService from '../service/AuthService';
 import productService from '../service/productService';
 import { Link } from 'react-router-dom';
 
-const EmployeeList = () => {
+const AAA = () => {
   const [products, setProducts] = useState([]);
   const [amount, setAmount] = useState('');
   const [description, setDescription] = useState('');
@@ -87,7 +87,7 @@ const EmployeeList = () => {
             </tbody>
           </table>
           <div className="button-container">
-            <Link to="/prod" className="register-button">return </Link>
+            <Link to="/tous" className="register-button">return </Link>
           </div>
 
 
@@ -99,4 +99,4 @@ const EmployeeList = () => {
   );
 };
 
-export default EmployeeList;
+export default AAA;

@@ -10,6 +10,7 @@ import FinancierForm from './components/FinancierForm';
 import ProductList from './components/ProductList';
 import EmployeeList from './components/EmployeeList';
 import TousEmp from './components/TousEmp';
+import AAA from './components/AAA';
 
 
 
@@ -19,7 +20,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-     
+        <Route exact path="/AAA" element={<AAA />}></Route>
         <Route exact path="/ListE" element={<EmployeeList />}></Route>
         <Route exact path="/List" element={<ProductList />}></Route>
         <Route exact path="/wind" element={<Wind />}></Route>
